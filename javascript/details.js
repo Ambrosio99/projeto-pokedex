@@ -2,7 +2,7 @@
 
 function MostrarSpan() {
   const liMostrar = document.querySelector(".mostrar");
-  liMostrar.addEventListener("click", (mostrou) => {
+  liMostrar.addEventListener("click", () => {
     const pokemonSpan = document.querySelectorAll(".stats");
     pokemonSpan.forEach((item) => {
       item.classList.toggle("show-stats");

@@ -54,7 +54,7 @@ nav {
   background-color: rgba(0, 0, 0, 0.4);
 }
 .show-stats {
-  display: block;
+  display: inline-block;
 }
 
 .stats p {
@@ -81,4 +81,8 @@ nav {
   display: grid;
   align-content: center;
   gap: 5px;
+}
+
+button {
+  cursor: pointer;
 }
